@@ -35,7 +35,6 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 
 ## Base tecnica
 
-| | |
 |---|---|
 | Versione | Tangle OS 0.26 "Knot" |
 | Tipo di release | Sperimentale |
@@ -53,17 +52,16 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 
 ## Requisiti minimi di sistema
 
-Processore: CPU 64-bit
-RAM: 4 GB
-Storage: 20 GB disponibili
-Display: 1024x768 resolution
-Media: media USB o DVD per l'installazione
+|---|---|
+| Processore | CPU 64-bit |
+| RAM | 4 GB |
+| Storage | 20 GB disponibili |
+| Display | 1024x768 resolution |
 
 ---
 
 ## Come ottenere TangleOS
 
-| | |
 |---|---|
 | **Download ISO** | *work in progress* |
 | **Checksum SHA256** | *work in progress* |
