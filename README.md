@@ -14,7 +14,7 @@
 
 
 
-**GNU/Linux Tangle OS - districando complessità con Bash e potenza atomica**
+**GNU/Linux Tangle OS - districando complessità con potenza atomica**
 
 
 ## In breve
