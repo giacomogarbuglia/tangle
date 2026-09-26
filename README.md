@@ -1,3 +1,15 @@
+        ╭─────╮         ╭─────╮
+      ╭─╯     ╰─╮     ╭─╯     ╰─╮
+     ╱           ╲   ╱           ╲
+    │             ╲ ╱             │
+    │              ╳              │
+    │             ╱ ╲             │
+     ╲           ╱   ╲           ╱
+      ╰─╮     ╭─╯     ╰─╮     ╭─╯
+        ╰─────╯         ╰─────╯
+
+           T A N G L E   O S
+        ── knotted, good and easy ──
 
 **GNU/Linux Tangle OS - districando complessità con Bash e potenza atomica**
 
@@ -42,5 +54,3 @@ Il codice, gli script di build e i materiali di branding originali di questo rep
 Tangle OS è un progetto indipendente e amatoriale di Giacomo Garbuglia, non affiliato né sponsorizzato da Red Hat, dal progetto Fedora, da Universal Blue o da Canonical. Fedora, Red Hat e i rispettivi loghi sono marchi dei rispettivi proprietari, citati solo a scopo identificativo.
 
 ---
-
-EOF
