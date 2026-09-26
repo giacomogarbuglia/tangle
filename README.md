@@ -1,43 +1,46 @@
-# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+**GNU/Linux Tangle OS - districando complessità con Bash e potenza atomica**
 
-After setup, it is recommended you update this README to describe your custom image.
+---
 
-## Installation
+## In breve
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora Atomic** spogliata di ogni desktop environment tradizionale, sostituito da una shell minimale su misura in Bash (tande) e un compositor Wayland minimale (Hyprland).
 
-To rebase an existing atomic Fedora installation to the latest build:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/blue-build/template:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/blue-build/template:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+**Stato del progetto: in sviluppo attivo. Nessuna release stabile ancora disponibile.**
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+---
 
-## ISO
+## Filosofia
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+- **Past-future**: l'estetica e l'interazione richiamano il terminale essenziale, testuale, diretto — l'infrastruttura sotto è invece quanto di più moderno esista oggi in ambito Linux (immagini immutabili, rollback atomico, supply chain firmata).
+- **Atomica per davvero**: ogni aggiornamento di sistema è tutto-o-niente. Se qualcosa si rompe, si torna indietro con un comando, non si reinstalla nulla.
+- **CLI-first**: immaginata con un orientamento verso l'utilizzo di Bash, ma utilizzabile anche da tua nonna.
 
-## Verification
+---
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+## Base tecnica
 
-```bash
-cosign verify --key cosign.pub ghcr.io/blue-build/template
-```
+| Componente | Scelta |
+|---|---|
+| Base immagine | `/ublue-os/base-main` (Fedora) |
+| Compositor | Hyprland (Wayland) |
+| Terminale | Kitty |
+| Shell | tande *(in sviluppo)* |
+
+---
+
+## Licenza
+
+Il codice, gli script di build e i materiali di branding originali di questo repository sono distribuiti sotto licenza [GPL3](./LICENSE). Il sistema operativo risultante resta comunque composto da pacchetti Fedora e upstream, ciascuno soggetto alla propria licenza originale (GPL, LGPL, MIT, Apache e altre) — Tangle OS non ne altera i termini.
+
+---
+
+## Un progetto personale
+
+Tangle OS è un progetto indipendente e amatoriale di Giacomo Garbuglia, non affiliato né sponsorizzato da Red Hat, dal progetto Fedora, da Universal Blue o da Canonical. Fedora, Red Hat e i rispettivi loghi sono marchi dei rispettivi proprietari, citati solo a scopo identificativo.
+
+---
+
+EOF
