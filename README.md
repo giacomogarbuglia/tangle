@@ -45,7 +45,7 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 
 | Componente | Scelta |
 |---|---|
-| Base immagine | `/ublue-os/base-main` (Fedora) |
+| Base immagine | `/ublue-os/silverblue-main` (Fedora) |
 | Compositor | Hyprland (Wayland) |
 | Terminale | Kitty |
 | Shell | tande *(work in progress)* |
@@ -59,6 +59,7 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 | RAM | 4 GB |
 | Storage | 20 GB disponibili |
 | Display | 1024x768 resolution |
+| Rete | Connessione ad Internet per l'installazione del sistema |
 
 ---
 
