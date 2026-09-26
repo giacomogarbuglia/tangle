@@ -25,12 +25,9 @@ modules:
         - mako
         - hyprlock
         - hypridle
-        - hyprpaper
         - rofi-wayland
         - grim
         - slurp
-        - wl-clipboard
-        - swayosd
         - kitty
         - git
     remove:
