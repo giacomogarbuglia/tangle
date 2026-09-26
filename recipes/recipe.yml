@@ -38,7 +38,7 @@ modules:
         - firefox
         - firefox-langpacks
 
-  - type: default-flatpacks
+  - type: default-flatpaks
     configurations:
       - notify: true
         scope: system
