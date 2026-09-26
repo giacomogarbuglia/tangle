@@ -49,6 +49,5 @@ modules:
           - org.gnome.Evolution
           - com.usebottles.bottles
           - com.brave.Browser
-        scope: user
 
   - type: signing
