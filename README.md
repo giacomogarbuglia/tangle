@@ -70,6 +70,7 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 | **Download ISO** | *work in progress* |
 | **Checksum SHA256** | *work in progress* |
 | **Dimensione immagine** | *work in progress* |
+| **Donazioni ❤️** | *work in progress* |
 
 Si raccomanda sempre di verificare il checksum dell'immagine scaricata prima dell'installazione.
 
