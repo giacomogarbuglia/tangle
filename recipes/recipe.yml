@@ -4,7 +4,7 @@
 name: tangle
 description: GNU/Linux Tangle OS - districando complessità con potenza atomica
 
-base-image: ghcr.io/ublue-os/base-main
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
@@ -21,7 +21,34 @@ modules:
       packages:
         - hyprland
         - xdg-desktop-portal-hyprland
+        - waybar
+        - mako
+        - hyprlock
+        - hypridle
+        - hyprpaper
+        - rofi-wayland
+        - grim
+        - slurp
+        - wl-clipboard
+        - swayosd
         - kitty
         - git
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+
+  - type: default-flatpacks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - org.gnome.Showtime
+          - org.gnome.Decibels
+          - org.libreoffice.LibreOffice
+          - org.gnome.Evolution
+          - com.usebottles.bottles
+          - com.brave.Browser
+        scope: user
 
   - type: signing
