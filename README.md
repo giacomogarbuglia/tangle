@@ -9,7 +9,8 @@
         ╰─────╯         ╰─────╯
 
            T A N G L E   O S
-        ── knotted, good and easy ──
+        ────  Λ T O M I C  ────
+         knotted, good and easy
 
 **GNU/Linux Tangle OS - districando complessità con Bash e potenza atomica**
 
