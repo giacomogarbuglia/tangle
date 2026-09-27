@@ -37,7 +37,7 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 
 | Proprietà | Descrizione |
 |---|---|
-| Versione | Tangle OS 0.26 "Knot" |
+| Versione | Tangle OS 44 "Knot" |
 | Tipo di release | Sperimentale |
 | Data di rilascio | *work in progress* |
 | Architettura | 64-bit (amd64) |
