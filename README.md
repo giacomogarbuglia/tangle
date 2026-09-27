@@ -8,18 +8,18 @@
       ╰─╮     ╭─╯     ╰─╮     ╭─╯
         ╰─────╯         ╰─────╯
 
-           T A N G L E   O S
+            T A N G L E O S
         ────  Λ T O M I C  ────
          knotted, good and easy
 
 
 
-**GNU/Linux Tangle OS - districando complessità con potenza atomica**
+**GNU/Linux TangleOS - districando complessità con potenza atomica**
 
 
 ## In breve
 
-Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora Atomic** spogliata di ogni desktop environment tradizionale, sostituito da una shell minimale su misura in Bash (tande) e un compositor Wayland minimale (Hyprland).
+TangleOS è un progetto personale e indipendente: una distribuzione **Fedora Atomic** spogliata di ogni desktop environment tradizionale, sostituito da una shell minimale su misura in Bash (tande) e un compositor Wayland minimale (Hyprland).
 
 
 **Stato del progetto: in sviluppo attivo. Nessuna release stabile ancora disponibile.**
@@ -37,7 +37,7 @@ Tangle OS è un progetto personale e indipendente: una distribuzione **Fedora At
 
 | Proprietà | Descrizione |
 |---|---|
-| Versione | Tangle OS 44 "Knot" |
+| Versione | TangleOS 44 "Knot" |
 | Tipo di release | Sperimentale |
 | Data di rilascio | *work in progress* |
 | Architettura | 64-bit (amd64) |
@@ -83,4 +83,4 @@ Il codice, gli script di build e i materiali di branding originali di questo rep
 
 ## Disclaimer
 
-Tangle OS è un progetto indipendente e amatoriale di Giacomo Garbuglia, non affiliato né sponsorizzato da Red Hat, dal progetto Fedora, da Universal Blue o da Canonical. Fedora, Red Hat e i rispettivi loghi sono marchi dei rispettivi proprietari, citati solo a scopo identificativo.
+TangleOS è un progetto indipendente e amatoriale di Giacomo Garbuglia, non affiliato né sponsorizzato da Red Hat, dal progetto Fedora, da Universal Blue o da Canonical. Fedora, Red Hat e i rispettivi loghi sono marchi dei rispettivi proprietari, citati solo a scopo identificativo.
