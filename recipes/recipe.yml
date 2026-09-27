@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 
 name: tangle
-description: GNU/Linux Tangle OS - districando complessità con potenza atomica
+description: GNU/Linux TangleOS - districando complessità con potenza atomica
 
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
@@ -14,26 +14,18 @@ modules:
         destination: /
 
   - type: dnf
-    repos:
-      copr:
-        - ashbuk/Hyprland-Fedora
     install:
       packages:
-        - hyprland
-        - xdg-desktop-portal-hyprland
-        - waybar
-        - mako
-        - hyprlock
-        - hypridle
-        - rofi-wayland
-        - grim
-        - slurp
         - kitty
         - git
+        - fastfetch
+        - plymouth-plugin-script
     remove:
       packages:
         - firefox
         - firefox-langpacks
+        - gnome-tour
+        - ptyxis
 
   - type: default-flatpaks
     configurations:
@@ -46,5 +38,25 @@ modules:
           - org.gnome.Evolution
           - com.usebottles.bottles
           - com.brave.Browser
+
+  - type: gschema-overrides
+    include:
+      - zz1-tangleos.gschema.override
+
+  - type: script
+    scripts:
+      - tangleos-branding.sh
+
+  - type: os-release
+    properties:
+      NAME: "TangleOS"
+      PRETTY_NAME: "TangleOS 44 (Knot)"
+      VERSION_CODENAME: "knot"
+      LOGO: "distributor-logo-tangleos"
+      DEFAULT_HOSTNAME: "tangle"
+      ANSI_COLOR: "38;2;192;113;82"
+      HOME_URL: "https://github.com/giacomogarbuglia/tangle"
+
+  - type: initramfs
 
   - type: signing

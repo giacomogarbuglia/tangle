@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>TangleOS</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-wallpaper.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#1c1c1e</pcolor>
+    <scolor>#1c1c1e</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>TangleOS - Montagne</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-mountains.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>TangleOS - Pianeta</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-world.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>TangleOS - Cubi</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-cubes.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#12141a</pcolor>
+    <scolor>#12141a</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>TangleOS - Neve</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-snow.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#2a1a1e</pcolor>
+    <scolor>#2a1a1e</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>TangleOS - Cinque Terre</name>
+    <filename>/usr/share/backgrounds/tangleos/tangleos-italy.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#2a2438</pcolor>
+    <scolor>#2a2438</scolor>
+  </wallpaper>
+</wallpapers>

@@ -1,0 +1,39 @@
+// TangleOS — configurazione fastfetch di sistema
+// Percorso nell'immagine: /etc/xdg/fastfetch/config.jsonc
+// Un utente può sovrascriverla con ~/.config/fastfetch/config.jsonc
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "/usr/share/tangleos/fastfetch-logo.txt",
+    "color": {
+      "1": "38;2;236;231;221",
+      "2": "38;2;192;113;82"
+    },
+    "padding": { "top": 1, "left": 1, "right": 3 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "38;2;109;143;163",
+      "title": "38;2;192;113;82"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    { "type": "os", "key": "Sistema" },
+    { "type": "kernel", "key": "Kernel" },
+    { "type": "uptime", "key": "Attivo da" },
+    { "type": "packages", "key": "Pacchetti" },
+    { "type": "shell", "key": "Shell" },
+    { "type": "de", "key": "Desktop" },
+    { "type": "terminal", "key": "Terminale" },
+    { "type": "cpu", "key": "CPU" },
+    { "type": "gpu", "key": "GPU" },
+    { "type": "memory", "key": "Memoria" },
+    { "type": "disk", "key": "Disco", "folders": "/" },
+    "break",
+    "colors"
+  ]
+}

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=TangleOS
+Description=Tema di boot ufficiale TangleOS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/tangleos
+ScriptFile=/usr/share/plymouth/themes/tangleos/tangleos.script

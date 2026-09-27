@@ -1,0 +1,18 @@
+# TangleOS — impostazioni predefinite di sistema (branding)
+# Le personalizzazioni del desktop (tema, colori, dock, ecc.) arriveranno nello step finale.
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/tangleos/tangleos-wallpaper.png'
+picture-uri-dark='file:///usr/share/backgrounds/tangleos/tangleos-wallpaper.png'
+picture-options='zoom'
+primary-color='#1c1c1e'
+secondary-color='#1c1c1e'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/tangleos/tangleos-wallpaper.png'
+picture-options='zoom'
+primary-color='#1c1c1e'
+secondary-color='#1c1c1e'
+
+[org.gnome.system.location]
+enabled=false
