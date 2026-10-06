@@ -26,6 +26,9 @@ modules:
         - firefox-langpacks
         - gnome-tour
         - ptyxis
+        - nvtop
+        - gnome-shell-extension-background-logo
+        - f44-backgrounds-base
 
   - type: default-flatpaks
     configurations:
@@ -38,6 +41,15 @@ modules:
           - org.gnome.Evolution
           - com.usebottles.bottles
           - com.brave.Browser
+          - org.gnome.Weather
+          - org.gnome.clocks
+          - org.gnome.Calendar
+          - org.gnome.Snapshot
+          - org.gnome.SimpleScan
+          - org.gnome.Papers
+          - org.gnome.DejaDup
+          - org.gnome.Calculator
+          - org.gnome.TextEditor
 
   - type: gschema-overrides
     include:
